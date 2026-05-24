@@ -21,7 +21,7 @@ FINAL_PATH = 5
 class AStarPathGUI:
     def __init__(self, window):
         self.win = window
-        self.win.title("16×16 A* Path Optimization")
+        self.win.title("A* Path Optimization")
         self.grid_data = [[EMPTY for _ in range(GRID_SIZE)] for _ in range(GRID_SIZE)]
         self.start_pos = None
         self.end_pos = None
